@@ -41,10 +41,12 @@ namespace League
     class ChampButton : Button
     {
         public string image;
+        public string text;
 
-        public ChampButton(string im)
+        public ChampButton(string im, string t)
         {
             this.image = im;
+            this.text = t;
         }
     }
 }
